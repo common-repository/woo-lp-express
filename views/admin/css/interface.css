@@ -1,0 +1,152 @@
+.nav-tab.nav-tab-active:focus{
+    outline: none;
+    box-shadow: none;
+}
+.loading-bar{
+    display:none;
+}
+.loading-bar svg{
+    width: 32px;
+    height: 32px;
+}
+
+p, ul, ol,form, fieldset{ margin:0; padding:0; }
+ul, ol { list-style:none; }
+
+a{text-decoration:none; outline:none;}
+.hide { display: none; }
+
+/***Accordion Menu [Start]***/
+#accordion-menu {
+    border-bottom: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    color: #000;
+    display: inline-block;
+    min-width: 50%;
+}
+#accordion-menu:last-child{
+    border-bottom:1px solid #ccc;
+}
+#accordion-menu li {
+
+    border: 1px solid #ccc;
+    border-bottom:0;
+}
+#accordion-menu li:hover{
+    background:#e7e7e7;
+}
+#accordion-menu .open {
+
+    cursor: pointer;
+    display: block;
+    background-color: #e5e5e5;
+    margin: 0 0 1px 0;
+    padding: 10px 15px 10px 15px;
+}
+#accordion-menu .open-selected {
+    background-color: #f1f1f1;
+}
+#accordion-menu .content {
+    padding: 5px 10px;
+    background:white;
+    color: #000;
+}
+#accordion-menu a {
+    color: #000;
+}
+
+/* .test-auth-button {
+    position: relative;
+    bottom: 52.32px;
+    left: 110px;
+} */
+/***Accordion Menu [End]***/
+body > .wc_int_country {
+    display: none;
+}
+
+#wclp-save-container {
+    display: flex;
+    align-items: center;
+}
+
+#wclp-save-container .loading-bar {
+    margin-left: 20px;
+}
+.notice, div.error, div.updated {
+    margin: 5px 15px 2px 0;
+}
+#submit, .test-auth-button {
+    margin: 10px 0 !important;
+}
+
+p.submit {
+    margin: 0;
+    padding: 0;
+}
+
+.lp-shipping-rule-block form {
+    display: flex;
+}
+
+.lp-rule-select-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.lp-shipping-rule-block {
+    margin: 20px 0;
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lp-shipping-rule-block form {
+    display: flex;
+    width: calc(100% - 125px);
+}
+
+.lp-shipping-rule-block form > * {
+    margin-right: 40px;
+}
+
+.lp-add-rule-select {
+    order:3;
+}
+
+.lp-rule-select-div {
+    display: flex;
+}
+
+
+.lp-shipping-rule-block form > .lp-rule-action-for {
+    margin-right: 0;
+}
+
+.lp-filter {
+    width: 200px;
+}
+
+.lp-shipping-rule-block label {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+}
+
+#discount-type-select {
+    width: 100%;
+}
+
+.lp-delete-rule-div {
+    width: 125px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lp-delete-rule-div button {
+    margin: 5px;
+}
